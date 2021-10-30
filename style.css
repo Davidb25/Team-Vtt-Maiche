@@ -273,6 +273,7 @@ body{
 
 
     .logo_team{
+        display: block;
         margin: auto;
         width: 100%;
         text-align: center;
