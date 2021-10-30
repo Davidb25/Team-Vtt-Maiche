@@ -67,8 +67,8 @@ body{
 }
 
 
-/*small devices*/
-@media screen and (max-width:767.98px) {
+/********************************************************small devices**************************************************************/
+@media screen and (max-width:819.98px) { /*@media screen and (max-width:767.98px)*/
     .navbar_links{
         display: flex;
         flex-direction: column;
@@ -78,10 +78,11 @@ body{
         top: 65px;
         right: 0;
         background:var(--navbar_bg_color);
-        transition:all .3s ease-out;
+        transition:all 0.3s ease-out;
     }
 
     .show_nav .navbar_links {
+
         width: 100%;
     }
 
@@ -106,7 +107,7 @@ body{
             letter-spacing: 5px;
     
     }
-    /*toggle menu*/
+    /****************************concerne toggle menu / burger ***************************************/
     .burger{
         display:block;
         position:relative;
@@ -195,7 +196,7 @@ body{
 
 /*medium devices*/
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:820px) { /*@media screen and (min-width:768px)*/
     .navbar_link > a::after{
         display: block;
         content:"";
