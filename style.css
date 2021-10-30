@@ -1,0 +1,52 @@
+/* Tuto pour slider images avec transition automatique ou manuel */
+/* https://www.youtube.com/watch?v=REOWRuPpxQE */
+
+
+.slider{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+    
+}
+
+.contenu {
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    width: 87%;
+    display: flex;
+    flex: 1 0 100%;
+    justify-content: center;
+    /*background-color: yellow;*/
+
+
+}
+
+.image>img {
+    width: 80%;
+}
+
+.left, .right{
+    top: 50%;
+    font-size: 5rem;
+    position: absolute;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: rgba(206, 203, 203, 0.671);
+
+}
+
+.right{
+    right: 20px;
+
+
+}
+
+.left{
+    left: 20px;
+
+
+}
