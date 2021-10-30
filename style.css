@@ -71,47 +71,39 @@ body{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: 80%;
+    width: 65%;
     height: 100%;
-    margin-top: 25px;
+    margin-top: 15px;
     display: flex;
-    border: 1px solid rgb(58, 58, 59);
-
 }
 
 .logo_team{
-    margin: auto;
-    width: 20%;
-    border: 1px solid blue;
-    text-align: center;
+    margin: 0px;
+    width: 15%;
 
-    
 }
 
   
 .logo_team>img {
     width: 140px;
-    border: 1px solid rgb(7, 121, 31);
+
 }
 
 .nom_team{
     margin: auto;
     height: 100%;
-    text-align: center;
-    width: 700px;
-    border: 1px solid rgb(212, 10, 43);
-
+      text-align: center;
+    width: 70%;
 }
 
-h1 {
-
+.nom_team h1 {
+    width: 100%;
     height: 100%;
     text-align: center;
-    font-size: 80px;
+    font-size: 75px;
     font-family: Arial, Helvetica, sans-serif;
     animation: apparition 2.5s ease-out; /* pour lent vers la fin (atterissage en douceur */
     text-shadow:0px 5px 3px #ff7b00;
-    border: 1px solid rgb(0, 0, 0);
 
 }
 
@@ -123,11 +115,42 @@ h1 {
     }
     to {     /* to correspond à 100% */
         opacity: 1;
-        font-size: 80px;
+        font-size: 75px;
         text-shadow:0px 5px 3px #ff7b00;
         
     }
     
+}
+
+.pulse_enter {
+    padding-top: 30px;
+    margin: auto;
+    height: 100%;
+    text-align: center;
+    display: inline-block;
+    width: 150px;
+  }
+
+
+
+.enter {
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgb(82, 81, 81);
+    box-shadow: 0 0 0 0 rgb(82, 81, 81);
+    animation: pulse 1.1s infinite; /* nom de l'animation/duree/iteration */
+    color: white;
+    cursor: pointer;
+
+}
+
+
+
+@keyframes pulse {
+    to {
+        box-shadow: 0 0 0 11px rgba(82, 81, 81, 0.3); /* on part de shadow 0,0,0,0, to valeur du keyframes*/
+    }   
 }
 
 
@@ -167,7 +190,6 @@ h1 {
         height: 100%;
         margin-top: 25px;
         flex-wrap: wrap;
-        border: 1px solid rgb(58, 58, 59);
     }
 
 
@@ -175,13 +197,12 @@ h1 {
     .logo_team{
         margin: auto;
         width: 100%;
-        border: 1px solid blue;
         text-align: center;
     
         
     }
 
-    h1 {
+    .nom_team h1 {
         padding-top: 30px;
         text-align: center;
         font-size: 50px;
