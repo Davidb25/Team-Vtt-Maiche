@@ -14,7 +14,7 @@ window.onload = () => {
     right.addEventListener('click', avance);
     left.addEventListener('click', recule);
     window. onresize = recentrage; /*fonction quand on redimensionne la fenêtre*/
-    setInterval(avance,6000)
+    setInterval(avance,5000)
     console.log(screenwidth);
 
     function avance() {
