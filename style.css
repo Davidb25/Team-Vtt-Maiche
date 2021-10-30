@@ -111,13 +111,11 @@ body{
     from {
         opacity: 0;
         font-size: 0px;
-
     }
     to {
         opacity: 1;
         font-size: 65px;
         text-shadow:0px 5px 3px #ff7b00;
-        
     }
     
 }
@@ -128,7 +126,7 @@ body{
     height: 100%;
     text-align: center;
     display: inline-block;
-    width: 150px;
+    width: 250px;
   }
 
 
@@ -197,8 +195,15 @@ body{
         margin: auto;
         width: 100%;
         text-align: center;
-    
-        
+    }
+
+    .nom_team{
+        margin: auto;
+        height: 220px;
+        text-align: center;
+        width: 100%;
+
+
     }
 
     .nom_team h1 {
@@ -210,6 +215,13 @@ body{
         text-shadow:0px 5px 3px #ff7b00;
     }
 
+    .enter {
+        font-size: 14px;
+        width: 250px;
+        height: 60px;
+        border-radius: 60px;
+    }
+
 
 /*********************************** animation *********************************************/
 
@@ -219,13 +231,11 @@ body{
         from {   /* from correspond à 0% */
             opacity: 0;
             font-size: 0px;
-    
         }
         to {     /* to correspond à 100% */
             opacity: 1;
             font-size: 80px;
-            text-shadow:0px 5px 3px #ff7b00;
-            
+            text-shadow:0px 5px 3px #ff7b00;   
         }
         
     }
@@ -279,7 +289,7 @@ body{
         
     .nom_team{
         margin: auto;
-        height: 150px;
+        height: 130px;
         text-align: center;
         width: 85%;
 
@@ -293,6 +303,13 @@ body{
         font-family: Arial, Helvetica, sans-serif;
         animation: apparition 2.5s ease-out;
         text-shadow:0px 5px 3px #ff7b00;
+    }
+
+    .enter {
+        font-size: 14px;
+        width: 180px;
+        height: 60px;
+        border-radius: 60px;
     }
 
 
