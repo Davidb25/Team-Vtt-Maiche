@@ -47,6 +47,11 @@ ul {
 .logo_menu {
     font-family: 'Poppins', sans-serif;
     color: rgb(228, 115, 10);
+    margin-right: 10px;
+    margin-left: 5px;
+    font-size: 1.4rem;
+    text-align: center;
+
 }
 
 .navbar{
@@ -100,7 +105,8 @@ ul {
 
     .navbar_link {
         transform: translateX(101%);
-
+        overflow: hidden;
+        padding: 0;
     }
 
     .show_nav .navbar_link {
@@ -114,13 +120,13 @@ ul {
         display: block;
         padding: 1rem;
         font-size: 1.6rem;
-        transition: all .6s ease-out;
+        transition: all .3s ease-in;
     }
 
     .navbar_link > a:hover {
-            padding-left: 2rem;
-            letter-spacing: 5px;
-            color: rgb(228, 115, 10);
+        padding-left: 2rem;
+        letter-spacing: 5px;
+        color: rgb(228, 115, 10);
     
     }
     /****************************concerne toggle menu / burger ***************************************/
@@ -177,31 +183,31 @@ ul {
     }
 
     .show_nav a {
-        padding: 18px 0px 18px 10px;
+        padding: 18px 10px 18px 10px;
+
     }
 
     /*animation bonus*/
 
+   /*.one {
+        display: none;
+    }
 
-.one {
-    display: none;
-}
+    .two {
+        display: none;
+    }
 
-.two {
-    display: none;
-}
+    .three {
+        display: none;
+    }
 
-.three {
-    display: none;
-}
+    .four {
+        display: none;
+    }
 
-.four {
-    display: none;
-}
-
-.five {
-    display: none;
-}
+    .five {
+        display: none;
+    }*/ */
 
     .show_nav .one {
         transition: all 0.5s ease-out;
