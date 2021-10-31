@@ -183,6 +183,26 @@ ul {
     /*animation bonus*/
 
 
+.one {
+    display: none;
+}
+
+.two {
+    display: none;
+}
+
+.three {
+    display: none;
+}
+
+.four {
+    display: none;
+}
+
+.five {
+    display: none;
+}
+
     .show_nav .one {
         transition: all 0.5s ease-out;
     }
