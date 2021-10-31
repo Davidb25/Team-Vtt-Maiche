@@ -1,0 +1,222 @@
+/* CSS pour menu burger selon la vidéo https://www.google.com/search?q=creer+un+menu+burger+css&rlz=1C1CHZN_frFR945FR949&oq=creer+un+menu+burger+css&aqs=chrome..69i57j0i22i30l2.9600j1j15&sourceid=chrome&ie=UTF-8#kpvalbx=_rY19YfGRFo6KlwSww6yQBw19*/
+
+
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+/* variables*/
+
+.light_mode{
+    --navbar_color: #222;
+    --navbar_bg_color: #F0F0F0;
+}
+.dark_mode{
+    --navbar_color: #FFF;
+    --navbar_bg_color: #000;
+}
+
+
+/*reset css*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:boder-box;
+    text-decoration: none;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/*basic style*/
+
+/*body{
+
+}*/
+
+.main_content{
+    padding: 1rem;
+}
+
+/*navbar*/
+
+.logo_menu {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(228, 115, 10);
+}
+
+.navbar{
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color:var(--navbar_color);
+    background:var(--navbar_bg_color);
+}
+
+.navbar_links{
+    display: flex;
+}
+
+.navbar_link{
+    padding: 0 15px;
+}
+
+.navbar_link > a{
+    color:var(--navbar_color);
+    font-family: 'Poppins', sans-serif;
+    font-size:1.1rem;
+
+}
+
+.burger{
+    display: none;
+}
+
+
+/********************************************************small devices**************************************************************/
+@media screen and (max-width:767.98px) { /*@media screen and (max-width:767.98px)*/
+    .navbar_links{
+        display: flex;
+        flex-direction: column;
+        width:0;
+        height: calc(100vh - 65px);
+        position:absolute;
+        top: 65px;
+        right: 0;
+        background:var(--navbar_bg_color);
+        transition:all 0.3s ease-out;
+    }
+
+    .show_nav .navbar_links {
+        width: 100%;
+        padding-top: 55px;
+    }
+
+    .navbar_link {
+        transform: translateX(101%);
+    }
+
+    .show_nav .navbar_link {
+        transform: translateX(18%);
+        width: 100%;
+        padding: 15px 0 15px 0;
+    }
+
+    .navbar_link > a {
+        display: block;
+        padding: 1rem;
+        font-size: 1.6rem;
+        transition: all .6s ease-out;
+    }
+
+    .navbar_link > a:hover {
+            padding-left: 2rem;
+            letter-spacing: 5px;
+            color: rgb(228, 115, 10);
+    
+    }
+    /****************************concerne toggle menu / burger ***************************************/
+    .burger{
+        display:block;
+        position:relative;
+        padding: 0;
+        width: 45px;
+        height: 45px;
+        border:none;
+        background: transparent;
+        cursor: pointer;
+    }
+
+    .bar{
+        display:block;
+        width:45px;
+        height: 4px;
+        background: rgb(228, 115, 10);
+        border-radius: 3px;
+        transition:all .3s ease-out;
+    }
+
+    .show_nav .bar{
+        width: 0;
+        background: transparent;
+
+
+    }
+
+    .bar::before, .bar::after{
+        content:"";
+        display:block;
+        width:45px;
+        height: 4px;
+        position:absolute;        
+        background: rgb(228, 115, 10);
+        border-radius: 3px;
+        transition:all .3s ease-out;
+    }
+    
+    .bar::before{
+        transform:translateY(-12px);
+    }
+
+    .show_nav .bar::before{
+        transform:rotate(45deg)
+    }
+
+    .bar::after{
+        transform:translateY(12px);
+    }
+
+    .show_nav .bar::after{
+        transform:rotate(-45deg)
+    }
+
+    /*animation bonus*/
+
+    .show_nav .one {
+        transition: all .5s ease-out;
+    }
+
+    .show_nav .two {
+        transition: all .6s ease-out;
+    }
+
+    .show_nav .three {
+        transition: all .7s ease-out;
+    }
+
+    .show_nav .four {
+        transition: all .8s ease-out;
+    }
+
+    .show_nav .five {
+        transition: all .9s ease-out;
+    }
+
+
+}
+
+
+/*medium devices*/
+
+@media screen and (min-width:768px) { /*@media screen and (min-width:768px)*/
+    .navbar_link > a::after{
+        display: block;
+        content:"";
+        width: 0;
+        height: 1px;
+        background:rgb(228, 115, 10);
+        transition: width .5s;
+        padding-top: 3px;
+        border-radius: 3px;
+    }
+
+    .navbar_link:hover > a::after{
+        width: 100%;
+    } 
+}
