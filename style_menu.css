@@ -96,16 +96,23 @@ ul {
     .show_nav .navbar_links {
         width: 100%;
         padding-top: 55px;
+        border: 1px red solid;
+        height: calc(100vh - 130px);
     }
 
     .navbar_link {
         transform: translateX(101%);
+        padding: 15px 0 15px 0;
+        display: none;
+
     }
 
     .show_nav .navbar_link {
         transform: translateX(18%);
-        width: 100%;
+        width: 60%;
         padding: 15px 0 15px 0;
+        display: flex;
+        border: 1px solid yellow;
     }
 
     .navbar_link > a {
