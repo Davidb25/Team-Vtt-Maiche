@@ -91,7 +91,8 @@ body{
     }
 
     .show_nav .navbar_link {
-        transform: translateX(0);
+        transform: translateX(20%);
+        padding: 10px 10px 10px 10px;
 
     }
 
@@ -212,5 +213,3 @@ body{
         width: 100%;
     } 
 }
-
-
