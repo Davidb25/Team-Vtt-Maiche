@@ -70,6 +70,12 @@ ul {
     transform: rotate(-12deg);
 }
 
+.credit_photo_maichoise p1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+
+}
+
 /* -----------------------------------------  parteanaires  -------------------------------------------*/
 
 .img_veloworld {
