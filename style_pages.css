@@ -41,5 +41,47 @@ ul {
 @keyframes appraition_titre {
 	0% {opacity:0;}
 	100% {opacity:1.0;}
+}/* -----------------------------------------  contacts  -----------------------------------------------*/
+
+.contacter{
+    margin-top: 25px;
 }
 
+.iconemail {
+    padding-top: 5px;
+    text-align: center;
+}
+
+.contacter a {
+    line-height: 45px;
+}
+
+/* -----------------------------------------  parteanaires  -------------------------------------------*/
+
+.img_veloworld {
+    padding-top: 25px;
+    text-align: center;
+
+}
+
+.img_mainier {
+    padding-top: 25px;
+    text-align: center;
+}
+
+
+/*---------------------------------------------- animations -----------------------------------------*/
+
+@media screen and (max-width:767.98px) { /*@media screen and (min-width:768px)*/
+
+    .img_veloworld img{
+        width:220px;
+
+    }
+
+    .img_img_mainier img{
+        width:115px;
+
+    }
+
+}

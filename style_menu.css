@@ -71,7 +71,6 @@ ul {
     color:var(--navbar_color);
     font-family: 'Poppins', sans-serif;
     font-size:1.1rem;
-
 }
 
 .burger{
@@ -96,23 +95,19 @@ ul {
     .show_nav .navbar_links {
         width: 100%;
         padding-top: 55px;
-        border: 1px red solid;
         height: calc(100vh - 130px);
     }
 
     .navbar_link {
         transform: translateX(101%);
-        padding: 15px 0 15px 0;
-        display: none;
 
     }
 
     .show_nav .navbar_link {
-        transform: translateX(18%);
-        width: 60%;
-        padding: 15px 0 15px 0;
         display: flex;
-        border: 1px solid yellow;
+        transform: translateX(35%);
+        width: 60%;
+
     }
 
     .navbar_link > a {
@@ -152,8 +147,6 @@ ul {
     .show_nav .bar{
         width: 0;
         background: transparent;
-
-
     }
 
     .bar::before, .bar::after{
@@ -183,28 +176,35 @@ ul {
         transform:rotate(-45deg)
     }
 
+    .show_nav a {
+        padding: 18px 0px 18px 10px;
+    }
+
     /*animation bonus*/
 
+
     .show_nav .one {
-        transition: all .5s ease-out;
+        transition: all 0.5s ease-out;
     }
 
     .show_nav .two {
-        transition: all .6s ease-out;
+        transition: all 0.6s ease-out;
+
     }
 
     .show_nav .three {
-        transition: all .7s ease-out;
+        transition: all 0.7s ease-out;
+
     }
 
     .show_nav .four {
-        transition: all .8s ease-out;
+        transition: all 0.8s ease-out;
+
     }
 
     .show_nav .five {
-        transition: all .9s ease-out;
+        transition: all 0.9s ease-out;
     }
-
 
 }
 
