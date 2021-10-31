@@ -28,7 +28,6 @@ ul {
 /*basic style*/
 
 .titre_page{
-    padding-top: 12px;
     text-align: center;
     letter-spacing: 3px;
     color: rgb(228, 115, 10);
@@ -43,8 +42,23 @@ ul {
 	100% {opacity:1.0;}
 }/* -----------------------------------------  contacts  -----------------------------------------------*/
 
+
+.contacts{
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: center;
+
+
+}
+
 .contacter{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
     margin-top: 25px;
+    font-size: 20px;
 }
 
 .iconemail {

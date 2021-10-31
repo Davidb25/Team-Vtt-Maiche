@@ -95,6 +95,9 @@ ul {
         right: 0;
         background:var(--navbar_bg_color);
         transition:all 0.3s ease-out;
+        padding-top: 55px;
+
+
     }
 
     .show_nav .navbar_links {
@@ -121,6 +124,7 @@ ul {
         padding: 1rem;
         font-size: 1.6rem;
         transition: all .3s ease-in;
+        padding: 18px 10px 18px 10px;
     }
 
     .navbar_link > a:hover {
@@ -209,27 +213,27 @@ ul {
         display: none;
     }*/ */
 
-    .show_nav .one {
-        transition: all 0.5s ease-out;
+    .show_nav  .one {
+        transition: all .1s ease-out;
     }
 
     .show_nav .two {
-        transition: all 0.6s ease-out;
+        transition: all .2s ease-out;
 
     }
 
     .show_nav .three {
-        transition: all 0.7s ease-out;
+        transition: all .3s ease-out;
 
     }
 
     .show_nav .four {
-        transition: all 0.8s ease-out;
+        transition: all .4s ease-out;
 
     }
 
     .show_nav .five {
-        transition: all 0.9s ease-out;
+        transition: all .5s ease-out;
     }
 
 }
