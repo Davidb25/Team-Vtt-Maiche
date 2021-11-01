@@ -71,7 +71,7 @@ ul {
 }
 
 .photos_maichoises{
-displau:flex;
+display:flex;
 text-align: center;
 }
 
@@ -95,7 +95,6 @@ text-align: center;
 .img_veloworld {
     padding-top: 25px;
     text-align: center;
-
 }
 
 .img_mainier {
@@ -115,8 +114,6 @@ text-align: center;
     font-weight: bold;
     line-height: 35px;
     text-align: center;
-
-
 }
 
 .contacter{
@@ -153,7 +150,6 @@ text-align: center;
     }
 
 }
-
 
 
 /********************************************************small devices**************************************************************/
