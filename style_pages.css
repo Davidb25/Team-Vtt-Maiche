@@ -62,7 +62,7 @@ ul {
     height: 100%;
     text-align: center;
     margin-top: 40px;
-    margin-bottom:60px;
+    margin-bottom:20px;
 }
 
 
@@ -70,10 +70,24 @@ ul {
     transform: rotate(-12deg);
 }
 
+.photos_maichoises{
+displau:flex;
+text-align: center;
+}
+
+.photos_maichoises img{
+    padding: 10px;
+    text-align: center;
+    }
+
+.credit_photo_maichoise{
+ text-align: center;
+ margin-bottom:40px;
+}
+
 .credit_photo_maichoise p1 {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
-
 }
 
 /* -----------------------------------------  parteanaires  -------------------------------------------*/
