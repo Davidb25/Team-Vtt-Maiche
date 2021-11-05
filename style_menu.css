@@ -175,7 +175,7 @@ ul {
     }
 
     .show_nav .bar::before{
-        transform:rotate(45deg)
+        transform:rotate(45deg);
     }
 
     .bar::after{
