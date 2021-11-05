@@ -4,26 +4,36 @@
 
 }
 
+
 .container {
     box-sizing: border-box;
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     /*background: #ff7a2d;*/
     display:flex;
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
+
+}
+
+.bas_gallery{
+    position: relative;
+    height: 20px;
+    width: 100px;
+    border: solid 1px blue;
 }
 
 .gallery {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     max-width: 1600px;
     max-height: 800px;
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
     align-items: center;
+
 }
 
 .gzllery-image {
@@ -33,6 +43,7 @@
     min-height: 200px;
     margin: 10px;
     overflow: hidden;
+
 }
 
 .image {
@@ -40,6 +51,12 @@
     height: 100%;
     object-fit: cover;
     /* transform: .2s; */
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.image:hover{
+    transform: scale(1.1);
 }
 
 /************** popup ******************/
@@ -60,26 +77,29 @@
     justify-content: center;
     align-items: center;
     z-index: 5;
-    overflow: hidden;
     padding-bottom:35px;
-    /* transition: .2s; */
+    transition: .2s;
 }
+
 
 
 .popup.active{
     transform: translate(-50%, -50%) scale(1);
     opacity: 1;
+    overflow: hidden;
+}
+
+.popup.active body{
+    overflow: hidden;
 }
 
 .popup.active .top-bar,
 .popup.active .close-btn,
-/*.popup.active .image-name,*/
 .popup.active .arrow-btn,
-/*.popup.active .index, */
 .popup.active .large-image {
     opacity: 1;
-    /*transition: opacity 0.5s;*/
-    /*transition-delay: .2s; */
+    transition: opacity 0.8s;
+    transition-delay: .2s;
 }
 
 .top-bar{
@@ -97,7 +117,7 @@
 }
 
 .logo-gallery{
-    color: red;
+    color: #ff7b00;
     Font-size: 30px;
     margin-top:3px;
 }
@@ -109,8 +129,6 @@
     right: 40px;
     width: 20px;
     height: 20px;
-    /*border-radius: 50%;
-    background: #f00;*/
     cursor: pointer;
 }
 

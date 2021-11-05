@@ -11,12 +11,15 @@ const imageIndex = document.querySelector('.index');
 const leftArrow = document.querySelector('.left-arrow');
 const rightArrow = document.querySelector('.right-arrow');
 
+
+
 let index = 0;
 
 images.forEach((item, i) => {
     item.addEventListener('click', () => {
         updateImage(i);
         popup.classList.toggle('active');
+
     })
 })
 
@@ -26,10 +29,13 @@ const updateImage = (i) => {
    /* imageName.innerHTML = path;*/
     imageIndex.innerHTML = `${i+1}`;
     index = i;
+    document.body.style.overflow = 'hidden';
+
 }
 
 closeBtn.addEventListener('click', () => {
     popup.classList.toggle('active');
+    document.body.style.overflow = 'visible';
 })
 
 leftArrow.addEventListener('click', () => {
@@ -52,3 +58,6 @@ rightArrow.addEventListener('click', () => {
         index = 0
     updateImage(index)}
 })
+
+
+

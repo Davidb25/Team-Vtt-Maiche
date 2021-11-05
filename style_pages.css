@@ -18,7 +18,9 @@
 }
 
 body{
-    background-color: rgb(217, 218, 221);
+    background: url('img/arriere_plan.png');
+    /*background-color: rgb(217, 218, 221);*/
+    background-size: cover;
 }
 
 ul {
