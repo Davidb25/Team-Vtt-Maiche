@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    /*background: #ff7a2d;*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.gallery {
+    width: 100%;
+    height: 100vh;
+    max-width: 1600px;
+    max-height: 800px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gzllery-image {
+    width: 60px;
+    height: 60px;
+    min-width: 300px;
+    min-height: 200px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* transform: .2s; */
+}
+
+/************** popup ******************/
+
+.popup{
+    opacity: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 100%;
+    max-width: 1600px;
+    height: 100vh;
+    max-height: 800px;
+    border-radius: 20px;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    overflow: hidden;
+    padding-bottom:35px;
+    /* transition: .2s; */
+}
+
+
+.popup.active{
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+.popup.active .top-bar,
+.popup.active .close-btn,
+/*.popup.active .image-name,*/
+.popup.active .arrow-btn,
+/*.popup.active .index, */
+.popup.active .large-image {
+    opacity: 1;
+    /*transition: opacity 0.5s;*/
+    /*transition-delay: .2s; */
+}
+
+.top-bar{
+    margin-top: 15px;
+    opacity: 0;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+
+.logo-gallery{
+    color: red;
+    Font-size: 30px;
+    margin-top:3px;
+}
+
+.close-btn{
+    opacity: 0;
+    position: absolute;
+    top: 15px;
+    right: 40px;
+    width: 20px;
+    height: 20px;
+    /*border-radius: 50%;
+    background: #f00;*/
+    cursor: pointer;
+}
+
+
+.close-btn h1{
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.arrow-btn {
+    opacity: 0;
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding:10px;
+    cursor: pointer;
+    background: none;
+}
+
+
+.left-arrow{
+    left: 40px;
+    transform: translateY(-50%) rotate(180deg);
+    padding: 0px;
+}
+
+.right-arrow{
+    right: 40px;
+    padding: 0px;
+}
+
+.arrow-btn:hover{
+    background: rgba(11, 15, 224, 0.5)
+}
+
+.index{
+    opacity: 0;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 80px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: normal;
+    }
+
+.large-image{
+    margin-top: 3%;
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+    opacity: 0;
+
+}
+

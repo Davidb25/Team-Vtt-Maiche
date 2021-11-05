@@ -78,9 +78,9 @@ body{
 }
 
 .logo_team{
+    width:140px;
     margin: 0px;
     width: 15%;
-
 }
 
   
@@ -92,11 +92,12 @@ body{
 .nom_team{
     margin: auto;
     height: 100%;
-      text-align: center;
+    text-align: center;
     width: 70%;
 }
 
 .nom_team h1 {
+
     width: 100%;
     height: 100%;
     text-align: center;
@@ -126,12 +127,12 @@ body{
     height: 100%;
     text-align: center;
     display: inline-block;
-    width: 250px;
+
 
   }
 
   button a {
-    text-decoration: none;
+          text-decoration: none;
 
   }
 
