@@ -183,3 +183,20 @@
 
 }
 
+
+@media screen and (max-width:460.98px) { /*@media screen and (max-width:767.98px)*/
+
+    .close-btn h1, .logo-gallery{
+
+        position: absolute;
+        bottom: -160px;
+
+    }
+
+    .logo-gallery{
+
+        position: absolute;
+        bottom: -60px;
+
+    }
+}
