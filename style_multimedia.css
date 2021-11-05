@@ -193,10 +193,10 @@
 
     }
 
-    .logo-gallery{
-
+    .logo-gallery {
         position: absolute;
-        bottom: -60px;
+        bottom: -140px;
+        left:20px;
 
     }
 }
