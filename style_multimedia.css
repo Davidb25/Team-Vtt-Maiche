@@ -70,7 +70,7 @@
     width: 100%;
     max-width: 1600px;
     height: 100vh;
-    max-height: 800px;
+    max-height: max-content;
     border-radius: 20px;
     background: rgb(0, 0, 0);
     display: flex;
@@ -182,13 +182,27 @@
 @media only screen and(min-width: 321px) and (max-width: 767.98px){
     /*style smartphones et petites tablettes en portrait*/
 
+
+.titre_page{
+        border: blue 5px solid;
+    }
+
+    .popup{
+        border: blue 5px solid;
+    }
+
+
+
+
     .close-btn h1 {
         position: absolute;
         bottom: -160px;
+        border: blue 5px solid;
 
     }
 
     .logo-gallery {
+        border: blue 5px solid;
         height: 80px;
         position: absolute;
         bottom: -140px;
