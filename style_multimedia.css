@@ -8,7 +8,7 @@
 .container {
     box-sizing: border-box;
     width: 100%;
-    height: 110vh;
+    height: 100%;
     /*background: #ff7a2d;*/
     display:flex;
     justify-content: center;
@@ -17,18 +17,10 @@
 
 }
 
-.bas_gallery{
-    position: relative;
-    height: 20px;
-    width: 100px;
-    border: solid 1px blue;
-}
 
 .gallery {
     width: 100%;
     height: 100%;
-    max-width: 1600px;
-    max-height: 800px;
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
@@ -43,6 +35,7 @@
     min-height: 200px;
     margin: 10px;
     overflow: hidden;
+    object-fit: cover;
 
 }
 
@@ -70,7 +63,7 @@
     width: 100%;
     max-width: 1600px;
     height: 100vh;
-    max-height: max-content;
+    /*max-height: 800px;*/
     border-radius: 20px;
     background: rgb(0, 0, 0);
     display: flex;
@@ -79,6 +72,7 @@
     z-index: 5;
     padding-bottom:35px;
     transition: .2s;
+
 }
 
 
@@ -87,12 +81,14 @@
     transform: translate(-50%, -50%) scale(1);
     opacity: 1;
     overflow: hidden;
+    object-fit: cover;
 }
 
 .popup.active .top-bar,
 .popup.active .close-btn,
 .popup.active .arrow-btn,
 .popup.active .large-image {
+
     opacity: 1;
     transition: opacity 0.8s;
     transition-delay: .2s;
@@ -169,46 +165,3 @@
     color: rgba(255, 255, 255, 0.5);
     font-weight: normal;
     }
-
-.large-image{
-    margin-top: 3%;
-    width: 90%;
-    height: 90%;
-    object-fit: contain;
-    opacity: 0;
-
-}
-
-@media only screen and(min-width: 321px) and (max-width: 767.98px){
-    /*style smartphones et petites tablettes en portrait*/
-
-
-.titre_page{
-        border: blue 5px solid;
-    }
-
-    .popup{
-        border: blue 5px solid;
-    }
-
-
-
-
-    .close-btn h1 {
-        position: absolute;
-        bottom: -160px;
-        border: blue 5px solid;
-
-    }
-
-    .logo-gallery {
-        border: blue 5px solid;
-        height: 80px;
-        position: absolute;
-        bottom: -140px;
-        left:20px;
-
-    }
-
-    }
-
