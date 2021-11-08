@@ -94,6 +94,13 @@
     transition-delay: .2s;
 }
 
+
+.popup.active .large-image {
+	max-width: 100%;
+	height: auto;
+}
+
+
 .top-bar{
     margin-top: 15px;
     opacity: 0;
