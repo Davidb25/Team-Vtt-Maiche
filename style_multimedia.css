@@ -159,10 +159,6 @@
     padding: 0px;
 }
 
-.arrow-btn:hover{
-    background: rgba(11, 15, 224, 0.5)
-}
-
 .index{
     opacity: 0;
     position: absolute;

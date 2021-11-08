@@ -12,7 +12,9 @@
 body{
     height:100%;
     margin: 0;
-    /*background-color: #c7c7c7;*/
+   /* background: url(img/arriere_plan.png);
+    background-repeat: no-repeat;
+    background-size: cover;*/
 }
 
 /* ------------------------------------- slider accueil*********************************/
@@ -153,7 +155,8 @@ body{
 .enter a {
     text-decoration: none;
     color: white;
-    font-size: 15px;
+    font-size: 22px;
+    opacity: 0.8;
 
 }
 
