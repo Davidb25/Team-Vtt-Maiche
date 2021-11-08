@@ -146,13 +146,13 @@
 
 
 .left-arrow{
-    left: 40px;
+    left: 0px;
     transform: translateY(-50%) rotate(180deg);
     padding: 0px;
 }
 
 .right-arrow{
-    right: 40px;
+    right: 0px;
     padding: 0px;
 }
 
