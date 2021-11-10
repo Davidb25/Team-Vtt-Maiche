@@ -92,12 +92,17 @@ ul {
 /* -----------------------------------------  parteanaires  -------------------------------------------*/
 
 .img_veloworld {
-    padding-top: 25px;
+    padding-top: 40px;
     text-align: center;
 }
 
 .img_mainier {
-    padding-top: 25px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.img_intermarche{
+    padding-top: 40px;
     text-align: center;
 }
 
