@@ -45,7 +45,7 @@
     object-fit: cover;
     /* transform: .2s; */
     cursor: pointer;
-    transition: 0.5s;
+    /*transition: 0.5s;*/
 }
 
 .image:hover{
