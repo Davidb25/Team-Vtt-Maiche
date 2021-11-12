@@ -3,7 +3,6 @@ function toggleMenu () {
     const burger = document.querySelector('.burger');
     burger.addEventListener('click',() => {
         navbar.classList.toggle('show_nav');
-        document.body.style.overflow = 'hidden';
     })
 
 }
