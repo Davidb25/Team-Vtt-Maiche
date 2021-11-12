@@ -135,13 +135,14 @@
 .close-btn{
     opacity: 0;
     position: fixed;
-    top: 60px;
+    top: 70px;
     right: 30px;
     width: 30px;
-    height: 65px;
+    height: 45px;
     cursor: pointer;
     background-color: black;
     text-align: center;
+    border:blue 2px solid;
 }
 
 
