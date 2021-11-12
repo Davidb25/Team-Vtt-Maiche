@@ -103,7 +103,8 @@ ul {
     .show_nav .navbar_links {
         width: 100%;
         padding-top: 55px;
-        height: calc(100vh - 130px);
+        height: calc(100vh);
+        /*height: calc(100vh - 130px);*/
     }
 
     .navbar_link {
