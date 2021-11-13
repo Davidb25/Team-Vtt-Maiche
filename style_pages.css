@@ -43,6 +43,105 @@ ul {
 	100% {opacity:1.0;}
 }
 
+/* -----------------------------------------  L'actualité  -------------------------------------------*/
+
+
+.container_actualites {
+    margin: 0px auto;
+    width: 80%;
+    height: 100%;
+}
+
+    /* ---  menu deroulant---*/
+
+    .bouton_liste_actualite {
+    background-color: #000000;
+    border: solid 6px red;
+    display: inline-block;
+    text-align: center;
+    color: #ff7b00;
+    cursor: pointer;
+    width: 120px;
+    padding:10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    }
+    .boutonmenuprincipal:hover {
+    background-color: #c5c3c3;
+    }
+    .deroulant_menu_actualite{
+
+    text-align: right;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+
+    }
+    .deroulant_menu_actualite-child {
+    display: none;
+    background-color: #ee8522;
+    min-width: 50px;
+    }
+    .deroulant_menu_actualite-child a {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    
+    }
+
+    .deroulant_menu_actualite-child a:hover {
+        color: rgb(0, 0, 0);
+        }
+
+
+    .deroulant_menu_actualite:hover .deroulant_menu_actualite-child {
+    display: block;
+    }
+    /* ---  fin menu deroulant---*/
+
+
+
+    .contenu_tous_articles{
+        height: 100%;
+    }
+
+
+    .container_actualite_1{
+        display:inline-block;
+        text-align:center;
+        margin-top: 18px;
+        height: 100%;
+
+
+
+
+    }
+
+    .photo_actualite img{
+        width: 80%;
+        max-width: 500px;
+        
+    }
+
+    .texte_actualite{
+        margin-top: 12px;
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 12px;
+
+    }
+
+
+    p span {
+        font-size: 20px;
+        font-weight:bold;
+        line-height: 30px;
+      }
+
+
+    
 
     
 /* -----------------------------------------  La Maîchoise  -------------------------------------------*/
