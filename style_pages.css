@@ -76,6 +76,11 @@ ul {
         text-align: justify;
     }
 
+    .texte_actualite a {
+        color: blue;
+      }
+
+
     .texte_actualite p span {
         font-size: 20px;
         font-weight:bold;
