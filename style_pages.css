@@ -48,7 +48,7 @@ ul {
 
 .container_bloc_actualites {
     margin: 0px auto;
-    width: 80%;
+    width: 90%;
     height: 100%;
 }
 
@@ -62,7 +62,7 @@ ul {
 
 
     .groupe_photo img{
-        width: 80%;
+        width: 90%;
         max-width: 400px;
         padding: 15px;  
     }
