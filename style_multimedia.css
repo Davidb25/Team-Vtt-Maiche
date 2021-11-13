@@ -269,9 +269,11 @@ font-size: 15px;
     .gzllery-image {
         min-width: 300px;
         min-height: 200px;
-
-    
     }
+
+    .choix_multimedias #goto_videos a, #goto_photos a{
+            font-size: 20px;
+        }
 
 
 
