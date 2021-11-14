@@ -138,7 +138,7 @@ body{
     text-align: center;
     font-size: 65px;
     font-family: Arial, Helvetica, sans-serif;
-    animation: apparition 2.5s ease-out;
+    animation: apparition 4s;
     text-shadow:0px 5px 3px #ff7b00;
 
 }
@@ -343,7 +343,7 @@ body{
     @keyframes apparition {
         from {   /* from correspond à 0% */
             opacity: 0;
-            font-size: 0px;
+            font-size: 25px;
     
         }
         to {     /* to correspond à 100% */
