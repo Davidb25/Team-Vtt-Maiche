@@ -172,12 +172,11 @@ ul {
 .contacter{
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    margin-top: 10px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .iconemail {
-    padding-top: 5px;
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -191,9 +190,10 @@ ul {
 }
 
 .iconefacebook p{
+    font-family: 'Poppins', sans-serif;
     margin-top: 25px;
     text-align: center;
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 .iconefacebook img{
