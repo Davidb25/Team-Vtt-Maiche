@@ -30,6 +30,7 @@ const updateImage = (i) => {
     imageIndex.innerHTML = `${i+1}`;
     index = i;
     document.body.style.overflow = 'hidden';
+    console.log(path)
 
 }
 

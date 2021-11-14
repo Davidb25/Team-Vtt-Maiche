@@ -1,6 +1,6 @@
 //popup
 
-const images = document.querySelectorAll('.image');
+const images = document.querySelectorAll('.image_popup');
 const popup = document.querySelector('.popup');
 const closeBtn = document.querySelector('.close-btn');
 const largeImage = document.querySelector('.large-image');

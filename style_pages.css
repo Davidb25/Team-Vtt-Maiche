@@ -119,11 +119,28 @@ ul {
     transform: rotate(-12deg);
 }
 
+.container_pour_bloc_photos{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 90%;
+    height: 230px;
+}
+
 .photos_maichoises{
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+    width: 500x;
+    height:230px;
+    padding: 15px;  
+    text-align: center;
     text-align: center;
 }
 
 .photos_maichoises img{
+    width: 300px;
+    height:auto;
     padding: 20px 10px 0 10px;
     text-align: center;
     }
@@ -135,7 +152,7 @@ ul {
 
 .credit_photo_maichoise p1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 /* -----------------------------------------  parteanaires  -------------------------------------------*/
