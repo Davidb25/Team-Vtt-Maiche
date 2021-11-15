@@ -237,7 +237,7 @@ ul {
 
 /*medium devices*/
 
-@media screen and (min-width:768px) { /*@media screen and (min-width:768px)*/
+@media screen and (minx-width:905px) { /*@media screen and (min-width:768px)*/
     .navbar_link > a::after{
         display: block;
         content:"";
@@ -252,4 +252,15 @@ ul {
     .navbar_link:hover > a::after{
         width: 100%;
     } 
+}
+
+
+.navbar{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color:var(--navbar_color);
+    background:var(--navbar_bg_color);
 }
