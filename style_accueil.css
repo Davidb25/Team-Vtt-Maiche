@@ -143,21 +143,6 @@ body{
 
 }
 
-.rdv_accueil{
-    width: 40%;
-    margin:0 auto;
-    text-align: center;
-    line-height: 35px;
-}
-
-.rdv_accueil h1{
-    Font-size: 20px;
-    color: rgb(0, 0, 0);
-    font-family: sans-serif;
-    font-weight: normal;
-    color: rgb(59, 59, 59);
-}
-
 
 @keyframes apparition {
     from {
