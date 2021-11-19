@@ -62,7 +62,7 @@ ul {
 
 
     .groupe_photo img{
-        object-fit: cover;
+        object-fit: contain;
         width: 90%;
         height: 20%;
         max-height: 200px;
