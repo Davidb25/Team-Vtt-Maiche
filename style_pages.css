@@ -62,7 +62,10 @@ ul {
 
 
     .groupe_photo img{
+        object-fit: cover;
         width: 90%;
+        height: 20%;
+        max-height: 200px;
         max-width: 300px;
         padding: 15px;  
     }
@@ -124,7 +127,7 @@ ul {
     margin-left: auto;
     text-align: center;
     width: 90%;
-    height: 4100%;
+    height: 100%;
 }
 
 .photos_maichoises{
@@ -160,10 +163,10 @@ ul {
     margin-right: auto;
     margin-left: auto;
     border: 2px solid rgb(0, 0, 0);
-    margin-top: 25px;
+    margin-top: 40px;
     width: 80%;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 37px;
     box-shadow: 10px 5px 5px #797776;
 }
 
@@ -193,13 +196,6 @@ ul {
     padding-top: 40px;
     text-align: center;
 }
-
-.img_intermarche{
-    padding-top: 40px;
-    text-align: center;
-}
-
-
 
 /* -----------------------------------------  contacts  -----------------------------------------------*/
 
