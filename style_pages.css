@@ -124,7 +124,7 @@ ul {
     margin-left: auto;
     text-align: center;
     width: 90%;
-    height: 230px;
+    height: 4100%;
 }
 
 .photos_maichoises{
@@ -147,12 +147,39 @@ ul {
 
 .credit_photo_maichoise{
     text-align: center;
-    margin-bottom:40px;
+    margin-bottom:2px;
+    height: 15px;
 }
 
 .credit_photo_maichoise p1 {
     font-family: 'Poppins', sans-serif;
     font-size: 0.9rem;
+}
+
+.container_soutien{
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 25px;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 40px;
+    box-shadow: 10px 5px 5px #797776;
+}
+
+.partenaires_maichoise p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    padding:8px;
+    color:blue
+
+}
+
+.partenaires_maichoise h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    margin: 12px;
+
 }
 
 /* -----------------------------------------  parteanaires  -------------------------------------------*/
