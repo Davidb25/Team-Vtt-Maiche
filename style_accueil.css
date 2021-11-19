@@ -212,10 +212,11 @@ body{
     position:absolute;
     bottom: 0px;
     width:100%;
-    height: 500px;
+    max-height: auto;
     object-fit: cover;
     z-index: -2;
     opacity:0.6;
+    overflow: hidden;
 
 }
 
@@ -319,7 +320,7 @@ body{
 
 
     .pulse_enter {
-        padding-top: 55px;
+        padding-top: 35px;
         height: 60px
     }
 
@@ -337,6 +338,8 @@ body{
         position:absolute;
         bottom: 0px;
         width: 100%;
+        height: 500px;
+        max-height: 500px;
         object-fit: cover;
         z-index: -2;
         opacity:0.5;
