@@ -190,11 +190,14 @@ body{
 
 .enter a {
     text-decoration: none;
-    color: white;
-    font-size: 22px;
-    opacity: 0.8;
 
 }
+
+button{
+    color: white;
+    font-size: 20px;
+}
+
 
 
 
@@ -216,7 +219,6 @@ body{
     object-fit: cover;
     z-index: -2;
     opacity:0.6;
-    overflow: hidden;
 
 }
 
@@ -325,10 +327,15 @@ body{
     }
 
     .enter {
-        font-size: 14px;
-        width: 180px;
-        height: 60px;
+
+        width: 160px;
+        height: 55px;
         border-radius: 60px;
+    }
+
+    button{
+        color: white;
+        font-size: 16px;
     }
 
 
