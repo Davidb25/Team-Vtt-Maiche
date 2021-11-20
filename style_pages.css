@@ -294,4 +294,9 @@ ul {
         color:black;
     }
 
+    .contacts p {
+        font-size: 1.1rem;
+
+    };
+
 }
