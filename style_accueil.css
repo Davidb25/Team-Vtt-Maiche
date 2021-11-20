@@ -322,8 +322,9 @@ button{
 
 
     .pulse_enter {
-        padding-top: 35px;
+        padding-top: 15px;
         height: 60px
+        padding-bottom: 20px;
     }
 
     .enter {
