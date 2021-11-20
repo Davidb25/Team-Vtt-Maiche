@@ -74,7 +74,7 @@ ul {
 .navbar_link > a{
     color:var(--navbar_color);
     font-family: 'Poppins', sans-serif;
-    font-size:1.1rem;
+    font-size:1rem;
 }
 
 .burger{
@@ -207,8 +207,8 @@ ul {
     }
     .five {
         display: none;
-    }*/ *
-
+    }*/
+    
     .show_nav  .one {
         transition: all .1s ease-out;
     }
