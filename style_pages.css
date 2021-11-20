@@ -222,6 +222,12 @@ ul {
 
 .contacter a {
     line-height: 45px;
+    color:black;
+}
+
+.contacter a span{
+    line-height: 45px;
+    color:blue
 }
 
 .iconefacebook {
@@ -246,7 +252,7 @@ ul {
 
 
 
-/*---------------------------------------------- mdia -----------------------------------------*/
+/*---------------------------------------------- media -----------------------------------------*/
 
 @media screen and (max-width:767.98px) { /*@media screen and (min-width:768px)*/
 
