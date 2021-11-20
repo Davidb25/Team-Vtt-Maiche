@@ -223,6 +223,7 @@ ul {
 
 .contacter a {
     line-height: 40px;
+    font-size: 1.0rem;
     color:black;
 }
 
@@ -284,6 +285,13 @@ ul {
 
     .contacts h1{
         font-size: 35px;
+    }
+
+    /* ------ contacts------*/
+    .contacter a {
+        line-height: 40px;
+        font-size: 1.1rem;
+        color:black;
     }
 
 }
