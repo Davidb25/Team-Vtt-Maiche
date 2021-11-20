@@ -123,11 +123,11 @@ font-size: 15px;
     object-fit: contain;
     /* transform: .2s; */
     cursor: pointer;
-    /*transition: 0.5s;*/
+    transition: 0.5s;
 }
 
 .image:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 /************** popup ******************/
